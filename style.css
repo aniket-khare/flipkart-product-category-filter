@@ -1,0 +1,213 @@
+.container1{
+    overflow: hidden;
+    background-color: #192232;
+
+}
+.cartlogo{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.logo-name{
+   color: white;
+   font-size: 1.75em;
+   text-decoration: none;
+   padding: 1px 10px 10px 50px;
+   float: left;
+   line-height: 60px;
+}
+.right-head{
+    text-decoration: none;
+    color: white;
+}
+.right-top{
+   float: right;
+   text-decoration: none;
+}
+.right-top > li{
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 20px;
+    color: white;
+    
+}
+
+#sorting{
+    height: 30px;
+    width: 15rem;
+}
+.sort-div-main{
+    display: flex;
+
+
+}
+#anchor-tag{
+    text-decoration: none;
+    border: 1px solid #f0c14b;
+    padding: 0.7rem;
+    background-color: #f0c14b;
+    border-radius: 0.7rem;
+    color: black;
+}
+
+.sort-div-filters{
+    padding-top: 1.9em;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.sort-div{
+    
+    font-size: 2em;
+    color: rgb(173, 64, 64);
+    padding-top: 0.7em;
+    margin-left: 16%;
+}
+.maindivide{
+    margin-top: 1.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+
+}
+.leftpanel{
+    width: 20%;
+    background: white;
+    border-radius: 8px;
+    margin-right: 4px;
+    margin: 8px;
+}
+.leftpanel-brand{
+    margin-top: 2.5rem;
+    margin-left: 22%;
+    font-size: 1.2em;
+    color: black;
+}
+#rightpanel{
+    
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    background: white;
+    border-radius: 8px;
+    margin: 8px;
+    
+}
+.right{
+    width: 15rem;
+    height: 15rem;
+}
+.low-high-leftpanel{
+
+    margin-left: 12%;
+    margin-top: 1.5rem;
+}
+#price1{
+    width: 50%;
+    margin-bottom: 1rem;
+    
+}
+#price2{
+    width: 50%;
+    margin-bottom: 2rem;
+}
+.actualprice{
+
+    text-decoration: line-through;
+    color: red;
+}
+.keep-value{
+    margin: 1rem 1rem 2.2rem 1.5rem;
+    line-height: 20px;
+}
+.puttingprice{
+    font-weight: bold;
+    color: green;
+}
+.naming{
+    margin-top: 1rem;
+    color: rgb(70, 70, 150);
+    font-weight: bold;
+    font-size: medium;
+}
+.discounting{
+    font-size: small;
+    color: green;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.upperating{
+    margin-top: 0.3rem;
+    /* width: 70px; */
+}
+.ratings{
+    padding: 2px 7px;
+    border-radius: 1rem;
+    font-size: 16px;
+    background-color: #26a541;
+    vertical-align: baseline;
+    color: white;
+    
+}
+.star{
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    
+}
+.branding{
+    font-weight: bold;
+    color: rgb(6, 107, 97);
+}
+.label-class1{
+    font-size: 0.8em;
+    padding-bottom: 1rem;
+}
+#Discount10,#Discount20, #Discount30, #Category1{
+    margin-top: 1rem;
+}
+.filtertext{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(194, 29, 84);
+    
+}
+.leftpanel-discounts{
+    margin-top: 2.5rem;
+    margin-left: 22%;
+    font-size: 1.2em;
+    color: black;
+}
+@media  screen and (max-width: 400px){
+
+    .sort-div {
+        font-size: 1.2em;
+        color: rgb(173, 64, 64);
+        padding-top: 1.7em;
+        margin-left: 2%;
+    }
+    #anchor-tag {
+        text-decoration: none;
+        border: none;
+        color: black;
+        padding: 0.5rem;
+        font-size: 14px;
+    }
+    .sort-div-filters{
+        margin: auto;
+    }
+    #rightpanel{
+        width: 50%;
+
+        display: block;
+    }
+    .leftpanel{
+        width: 50%;
+    }
+
+    .right{ 
+        width: 100%;
+        height: auto;
+    }
+
+}

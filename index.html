@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Categories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header>
+        <div class="container1">
+            <nav class="navbar">
+                <a class="logo-name" href="index.html">Ekart <img class="cartlogo" src="cart.png" alt="shopping cart picture"></a>
+                 <ul class="right-top">
+                    <li><a href="index.html" class="right-head">Home</a></li>
+                    <li><a href="index.html" class="right-head">About</a></li>
+                    <li><a href="index.html" class="right-head">Cart</a></li>
+                    <li><a href="index.html" class="right-head">Contact Us</a></li>
+                 </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+          <div>
+            <div class="sort-div-main">
+                <div class="sort-div">Sort : </div>
+                <div class="sort-div-filters"><a href="#" id="anchor-tag" onclick="handleFilters('descending','sortPrice')">High to Low</a></div>
+                <div class="sort-div-filters"><a href="#" id="anchor-tag" onclick="handleFilters('ascending','sortPrice')">Low to High</a></div>
+                <div class="sort-div-filters"><a href="#" id="anchor-tag" onclick="handleFilters('descending','sortPopularity')">Popularity</a></div>
+            </div>
+            <div>
+                
+            </div>
+          </div>
+        </section>
+        
+        <section>
+            <div class="maindivide">
+                <div class="leftpanel">
+                    <div class="filtertext">
+                        Filters
+                    </div>
+                    <div class="leftpanel-discounts">Discount
+                        <br><input type="checkbox" id="Discount10" name="price" value="10" onclick="handleFilters('10','discounts')">
+                        <label for="price1" class="label-class1">10% off</label><br>
+                        <input type="checkbox" id="Discount20" name="price" value="20" onclick="handleFilters('20','discounts')">
+                        <label for="price1" class="label-class1">20% off</label><br>
+                        <input type="checkbox" id="Discount30" name="price" value="30" onclick="handleFilters('30','discounts')">
+                        <label for="price1" class="label-class1">30% off</label><br>
+                    </div>
+                    <div class="leftpanel-brand">Brand
+                        <br><input type="checkbox" id="Category1" name="brands" value="1" onclick="handleFilters('boat','categories')">
+                        <label for="price1" class="label-class1">Boat</label><br>
+                        <input type="checkbox" id="Category1" name="brands" value="2" onclick="handleFilters('Sony','categories')">
+                        <label for="price1" class="label-class1">Sony</label><br>
+                        <input type="checkbox" id="Category1" name="brands" value="3" onclick="handleFilters('Zebronics','categories')">
+                        <label for="price1" class="label-class1">Zebronics</label><br>
+                        <input type="checkbox" id="Category1" name="brands" value="4" onclick="handleFilters('Mivi','categories')">
+                        <label for="price1" class="label-class1">Mivi</label><br>
+                        <input type="checkbox" id="Category1" name="brands" value="5" onclick="handleFilters('JBL','categories')">
+                        <label for="price1" class="label-class1">JBL</label><br>
+                        <input type="checkbox" id="Category1" name="brands" value="6" onclick="handleFilters('Mi','categories')">
+                        <label for="price1" class="label-class1">Mi</label><br>
+                        <input type="checkbox" id="Category1" name="brands" value="7" onclick="handleFilters('Google','categories')">
+                        <label for="price1" class="label-class1">Google</label><br>
+                    </div>
+                    <div class="low-high-leftpanel">
+                        <label for="price1">Lowest Price</label>
+                        <input type="number" id="price1" name="price" onchange="handleFilters(this.value,'minPrice')"><br>
+                        <label for="price2">Highest Price</label>
+                        <input type="number" id="price2" name="price" onchange="handleFilters(this.value,'maxPrice')">
+
+                    </div>
+
+                </div>
+                <div id="rightpanel"></div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="productdetail.js"></script>
+</body>
+</html>

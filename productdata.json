@@ -1,0 +1,127 @@
+{
+    "productinfoarray": [
+        {
+            "name": "boAt Stone 190F",
+            "price": 2399,
+            "actualprice": 2999,
+            "brand": "boat",
+            "customerrating": 4,
+            "discount": "10",
+            "logo": "boatstone190.png",
+            "Popularity": "70"
+            
+        },
+        {
+            "name": "ZEBRONICS Zeb-Vita Plus 16 W",
+            "price": 1999,
+            "actualprice": 2499,
+            "brand": "Zebronics",
+            "customerrating": 4.5,
+            "discount": "20",
+            "logo": "ZEBRONICSZebVitaPlus.png",
+            "Popularity": "88"
+        },
+        {
+            "name": "Mivi Play 5 W",
+            "price": 1599,
+            "actualprice": 1999,
+            "brand": "Mivi",
+            "customerrating": 4.2,
+            "discount": "20",
+            "logo": "MiviPlay5W.png",
+            "Popularity": "80"
+        },
+        {
+            "name": "Mivi Roam2 5 W",
+            "price": 2399,
+            "actualprice": 2999,
+            "brand": "Mivi",
+            "customerrating": 4.3,
+            "discount": "30",
+            "logo": "Mivi Roam2 5 W.png",
+            "Popularity": "86"
+        },
+        {
+            "name": "JBL Go PLUS",
+            "price": 2239,
+            "actualprice": 2799,
+            "brand": "JBL",
+            "customerrating": 3.5,
+            "discount": "30",
+            "logo": "JBL Go PLUS.png",
+            "Popularity": "60"
+        },
+        {
+            "name": "boAt Stone 1500 40 W",
+            "price": 10392,
+            "actualprice": 12990,
+            "brand": "boat",
+            "customerrating": 4.5,
+            "discount": "20",
+            "logo": "boAt Stone 1500 40 W.png",
+            "Popularity": "89"
+        },
+        {
+            "name": "Mi Outdoor 5 W",
+            "price": 1599,
+            "actualprice": 1999,
+            "brand": "Mi",
+            "customerrating": 4.3,
+            "discount": "30",
+            "logo": "Mi Outdoor 5 W.png",
+            "Popularity": "84"
+        },
+        {
+            "name": "boat Stone 300 5 W",
+            "price": 2792,
+            "actualprice": 3490,
+            "brand": "boat",
+            "customerrating": 3.6,
+            "discount": "10",
+            "logo": "boat Stone 300 5 W.png",
+            "Popularity": "63"
+        },
+        {
+            "name": "SONY SA-D40 80 W",
+            "price": 7192,
+            "actualprice": 8990,
+            "brand": "Sony",
+            "customerrating": 5,
+            "discount": "10",
+            "logo": "SONY SA-D40 80 W.png",
+            "Popularity": "92"
+        },
+        {
+            "name": "Google Home Mini with Google Assistant Smart Speaker",
+            "price": 3879,
+            "actualprice": 4849,
+            "brand": "Google",
+            "customerrating": 3.9,
+            "discount": "20",
+            "logo": "googlehome.png",
+            "Popularity": "68"
+        },
+        {
+            "name": "ZEBRONICS Zeb-Action",
+            "price": 1199,
+            "actualprice": 1499,
+            "brand": "Zebronics",
+            "customerrating": 4,
+            "discount": "20",
+            "logo": "ZEBRONICS Zeb-Action.png",
+            "Popularity": "73"
+        },
+        {
+            "name": "SONY SRS-XB13",
+            "price": 3992,
+            "actualprice": 4990,
+            "brand": "Sony",
+            "customerrating": 4.1,
+            "discount": "30",
+            "logo": "SONY SRS-XB13.png",
+            "Popularity": "77"
+        }
+        
+        
+    ]
+}
